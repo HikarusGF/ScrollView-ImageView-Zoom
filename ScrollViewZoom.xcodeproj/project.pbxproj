@@ -13,6 +13,8 @@
 		93A1534B23C65CF400EEAC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A1534923C65CF400EEAC2E /* Main.storyboard */; };
 		93A1534D23C65CF800EEAC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A1534C23C65CF800EEAC2E /* Assets.xcassets */; };
 		93A1535023C65CF800EEAC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A1534E23C65CF800EEAC2E /* LaunchScreen.storyboard */; };
+		93A1535923C65D3E00EEAC2E /* BDSM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93A1535723C65D3E00EEAC2E /* BDSM.jpg */; };
+		93A1535A23C65D3E00EEAC2E /* Mazinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93A1535823C65D3E00EEAC2E /* Mazinger.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		93A1534C23C65CF800EEAC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93A1534F23C65CF800EEAC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93A1535123C65CF800EEAC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A1535723C65D3E00EEAC2E /* BDSM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BDSM.jpg; path = Images/BDSM.jpg; sourceTree = "<group>"; };
+		93A1535823C65D3E00EEAC2E /* Mazinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mazinger.jpg; path = Images/Mazinger.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		93A1534223C65CF400EEAC2E /* ScrollViewZoom */ = {
 			isa = PBXGroup;
 			children = (
+				93A1535123C65CF800EEAC2E /* Info.plist */,
+				93A1534C23C65CF800EEAC2E /* Assets.xcassets */,
+				93A1534E23C65CF800EEAC2E /* LaunchScreen.storyboard */,
+				93A1534923C65CF400EEAC2E /* Main.storyboard */,
 				93A1534323C65CF400EEAC2E /* AppDelegate.swift */,
 				93A1534523C65CF400EEAC2E /* SceneDelegate.swift */,
 				93A1534723C65CF400EEAC2E /* ViewController.swift */,
-				93A1534923C65CF400EEAC2E /* Main.storyboard */,
-				93A1534C23C65CF800EEAC2E /* Assets.xcassets */,
-				93A1534E23C65CF800EEAC2E /* LaunchScreen.storyboard */,
-				93A1535123C65CF800EEAC2E /* Info.plist */,
+				93A1535723C65D3E00EEAC2E /* BDSM.jpg */,
+				93A1535823C65D3E00EEAC2E /* Mazinger.jpg */,
 			);
 			path = ScrollViewZoom;
 			sourceTree = "<group>";
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A1535023C65CF800EEAC2E /* LaunchScreen.storyboard in Resources */,
+				93A1535923C65D3E00EEAC2E /* BDSM.jpg in Resources */,
+				93A1535A23C65D3E00EEAC2E /* Mazinger.jpg in Resources */,
 				93A1534D23C65CF800EEAC2E /* Assets.xcassets in Resources */,
 				93A1534B23C65CF400EEAC2E /* Main.storyboard in Resources */,
 			);
