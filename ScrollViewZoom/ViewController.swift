@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UIScrollViewDelegate {
 
-	@IBOutlet var ⓞscrollView: UIScrollView!
+	@IBOutlet weak var ⓞscrollView: UIScrollView!
 	
 	let imageView🅒: UIImageView = {
 		let outputIV🅒 = UIImageView()
@@ -21,6 +21,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
    
    override func viewDidLoad() {
       super.viewDidLoad()
+      ⓞscrollView.contentInsetAdjustmentBehavior = .never // gets rid of the initial nonsensical margin
       ⓞscrollView.addSubview(imageView🅒)
       NSLayoutConstraint.activate([
          imageView🅒.topAnchor.constraint(equalTo: ⓞscrollView.contentLayoutGuide.topAnchor, constant: 0.0),

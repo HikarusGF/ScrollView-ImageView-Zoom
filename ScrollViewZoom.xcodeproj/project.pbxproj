@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9346AF2423CF26A00035D3CA /* IBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9346AF2323CF26A00035D3CA /* IBViewController.swift */; };
 		93A1534423C65CF400EEAC2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A1534323C65CF400EEAC2E /* AppDelegate.swift */; };
 		93A1534623C65CF400EEAC2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A1534523C65CF400EEAC2E /* SceneDelegate.swift */; };
 		93A1534823C65CF400EEAC2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A1534723C65CF400EEAC2E /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9346AF2323CF26A00035D3CA /* IBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBViewController.swift; sourceTree = "<group>"; };
 		93A1534023C65CF400EEAC2E /* ScrollViewZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A1534323C65CF400EEAC2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A1534523C65CF400EEAC2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				93A1534323C65CF400EEAC2E /* AppDelegate.swift */,
 				93A1534523C65CF400EEAC2E /* SceneDelegate.swift */,
 				93A1534723C65CF400EEAC2E /* ViewController.swift */,
+				9346AF2323CF26A00035D3CA /* IBViewController.swift */,
 				93A1535723C65D3E00EEAC2E /* BDSM.jpg */,
 				93A1535823C65D3E00EEAC2E /* Mazinger.jpg */,
 			);
@@ -149,6 +152,7 @@
 				93A1534823C65CF400EEAC2E /* ViewController.swift in Sources */,
 				93A1534423C65CF400EEAC2E /* AppDelegate.swift in Sources */,
 				93A1534623C65CF400EEAC2E /* SceneDelegate.swift in Sources */,
+				9346AF2423CF26A00035D3CA /* IBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

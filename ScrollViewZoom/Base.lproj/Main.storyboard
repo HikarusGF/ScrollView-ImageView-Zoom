@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YpF-cR-uNP">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,14 +10,14 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZoomTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewZoom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlL-eb-P2d">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="RJW-pT-862"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="gL6-x6-cSL"/>
                                 <connections>
@@ -40,7 +40,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+            <point key="canvasLocation" x="107" y="181"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mOu-m1-PRY">
+            <objects>
+                <viewController id="YpF-cR-uNP" customClass="IBViewController" customModule="ScrollViewZoom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BVR-U5-lba">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" minimumZoomScale="0.20000000000000001" maximumZoomScale="5" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhy-O0-PfW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BDSM.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Upb-H1-bsF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Upb-H1-bsF" secondAttribute="trailing" id="VlL-Yl-9NB"/>
+                                    <constraint firstItem="Upb-H1-bsF" firstAttribute="top" secondItem="Hhy-O0-PfW" secondAttribute="top" id="Z9O-xY-ovq"/>
+                                    <constraint firstItem="Upb-H1-bsF" firstAttribute="leading" secondItem="Hhy-O0-PfW" secondAttribute="leading" id="fWJ-Cg-s27"/>
+                                    <constraint firstAttribute="bottom" secondItem="Upb-H1-bsF" secondAttribute="bottom" id="fpq-Rp-o9d"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="dw2-nt-c3a"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="k82-d4-mzt"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YpF-cR-uNP" id="cHM-Lj-3RL"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Hhy-O0-PfW" secondAttribute="trailing" id="2t4-Sa-deu"/>
+                            <constraint firstItem="Hhy-O0-PfW" firstAttribute="leading" secondItem="BVR-U5-lba" secondAttribute="leading" id="669-KG-8ko"/>
+                            <constraint firstAttribute="bottom" secondItem="Hhy-O0-PfW" secondAttribute="bottom" id="PS2-Vq-768"/>
+                            <constraint firstItem="Hhy-O0-PfW" firstAttribute="top" secondItem="BVR-U5-lba" secondAttribute="top" id="qDT-in-EMR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lcq-qx-P0E"/>
+                    </view>
+                    <connections>
+                        <outlet property="ⓞimageView" destination="Upb-H1-bsF" id="qRV-qA-bP5"/>
+                        <outlet property="ⓞscrollView" destination="Hhy-O0-PfW" id="vMa-gt-lAU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRL-kC-paI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="847.76785714285711"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BDSM.jpg" width="720" height="529.91998291015625"/>
+    </resources>
 </document>
